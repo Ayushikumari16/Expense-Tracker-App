@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .balance h1 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .inc-exp-container {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .money {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .plus {
+    color: green;
+  }
+  
+  .minus {
+    color: red;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .list li {
+    background: #f9f9f9;
+    border-right: 5px solid;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .list li.plus {
+    border-color: green;
+  }
+  
+  .list li.minus {
+    border-color: red;
+  }
+  
+  .list li small {
+    display: block;
+    font-size: 0.75rem;
+    color: #666;
+  }
+  
+  .delete-btn {
+    background: #e60000;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input, 
+  .form-control select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }  
